@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+body {
+    background-color: #9BBEC8;
+}
+
+.container {
+    background-color: #DDF2FD;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    position: relative;
+    margin: 50px 0 50px 30px ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    min-width: calc(33% - 30px);
+    white-space: wrap;
+    height: 500px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 14px;
+    background-color:#164863;
+    color: #9BBEC8;
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    background-color: #2f3338;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4477CE;
+    width: 10px;
+    border-radius: 10px;
+}
+
